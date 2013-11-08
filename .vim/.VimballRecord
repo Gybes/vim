@@ -1,0 +1,2 @@
+xmledit.vmb: call delete('/home/gybe/.vim/ftplugin/xml.vim')|call delete('/home/gybe/.vim/doc/xml-plugin.txt')
+supertab.vmb: call delete('/home/gybe/.vim/doc/supertab.txt')|call delete('/home/gybe/.vim/plugin/supertab.vim')
