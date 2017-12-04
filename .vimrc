@@ -74,3 +74,9 @@ set statusline+=\ [%b][0x%B]\               " ASCII and byte code under cursor
 "Used to show make results in the quickfix window for typescript
 autocmd QuickFixCmdPost [^l]* nested cwindow
 autocmd QuickFixCmdPost    l* nested lwindow
+
+"Add .pdl to python syntax highlight
+au BufNewFile,BufRead *.pdl set filetype=python
+
+set tabstop=4
+set expandtab 
